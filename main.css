@@ -139,4 +139,7 @@ nav a {
     .intro-image{
         display:none;
     }
+    .intro-image img{
+        display:none;
+    }
 }
