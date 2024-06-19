@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff6347;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.intro-text {
+    max-width: 600px;
+}
+
+.greeting {
+    background-color: #87cefa;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.intro h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.intro p {
+    font-size: 24px;
+    color: #666;
+}
+
+.highlight {
+    color: #ff6347;
+}
+
+.cap {
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.intro-image img {
+    width: auto;
+    height: 450px;
+    border-radius: 10px;
+    -webkit-filter: drop-shadow(3px 3px 5px #222);
+    filter: drop-shadow(3px 3px 5px #222);
+    position: relative;
+}
+
+
+
+.partners {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.partners ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.partners li {
+    font-size: 18px;
+    color: #888;
+    
+}
+
+.partners li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #888;
+}
+
+/* Mobile Responsive */
+
+@media (max-width: 480px) {
+    .cap {
+        width: 100%;
+        padding: 15px;
+        font-size: 16px;
+    }
+    
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .partners ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
